@@ -87,13 +87,6 @@ function MyCard(props: Cardtype) {
 
                         {card?.src.map((e, i: number) =>
                             <Carousel.Item key={i} interval={100000000000000} >
-                                {/* <Image
-                                    onClick={() => {
-                                        navigate.push(`/products/${card.category}/${card._id}`);
-                                    }}
-                                    src={e}
-                                    className={css.Img}
-                                    alt={card.name} /> */}
                                 <img
                                     onClick={() => {
                                         navigate.push(`/products/${card.category}/${card._id}`);
