@@ -1,0 +1,39 @@
+.div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.btn2 {
+    height: 40px;
+    font-size: 20px;
+    width: 34%;
+    margin: 20px 0;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.btnActiv {
+    height: 40px;
+    font-size: 20px;
+    width: 34%;
+    margin: 20px 0;
+    background-color: yellow;
+    border: none;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn2 {
+        width: 40.5%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .btn2 {
+        width: 45.5%;
+    }
+}

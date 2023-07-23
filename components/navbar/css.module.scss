@@ -1,0 +1,161 @@
+.Mylogo {
+    margin-right: 10px;
+}
+
+.p {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.Mylink {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-weight: 500;
+    width: fit-content;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0 8px;
+    border-bottom: 2px solid transparent !important;
+}
+
+.img {
+    max-height: 60px;
+    width: 80%;
+}
+
+.input {
+    border: 1px solid #d5d9de;
+    border-radius: 2px;
+    height: 30px;
+    margin: 0 auto;
+    width: 200px;
+    padding: 0 7px;
+    outline: none;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.link2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 !important;
+    text-decoration: none;
+    display: block;
+    margin: 0 4px;
+    font-size: 14px;
+}
+
+.link2:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.Mylink:hover {
+    color: black !important;
+    border-bottom: 2px solid black !important;
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+    margin: 0 10px 2px 0;
+    border-radius: 50%;
+}
+
+.MyHeader {
+    min-width: 100%;
+    background-color: yellow;
+    z-index: 11;
+    transition: ease all 0.4s;
+}
+
+.MyHeader2 {
+    background-color: rgba(255, 255, 0, 0.82);
+}
+
+.mylinks {
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+.divcatgres {
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+}
+
+.icon {
+    margin-right: 5px;
+    color: black;
+}
+
+.icon:hover {
+    color: black;
+}
+
+.btn {
+    background: none !important;
+    color: black !important;
+    width: fit-content;
+    border: none !important;
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 991.5px) {
+    .MyHeader {
+        padding: 0;
+    }
+
+    .div {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .Mylink {
+        margin: 0;
+        display: block;
+        color: black;
+        text-align: center;
+        border: none !important;
+    }
+
+    .Mylink:hover {
+        border: none !important;
+    }
+
+    .Mylink:hover .tyu {
+        display: none;
+    }
+
+    .mylinks {
+        background-color: yellow;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .Mylogo {
+        font-size: 20px;
+    }
+
+    .p {
+        font-size: 13px;
+    }
+}

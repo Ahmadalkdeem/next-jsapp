@@ -1,0 +1,20 @@
+.Div {
+    width: 100%;
+    overflow: auto;
+}
+
+.Img {
+    height: 250px;
+}
+
+.Divcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.span {
+    margin-left: 10px;
+}
